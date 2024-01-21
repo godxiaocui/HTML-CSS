@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+/* 鼠标悬停的伪类选择器 一律用冒号*/
+     p.box:hover{
+        color: aqua;
+     }
+    </style>
+</head>
+<body>
+    <span>标签</span>
+    <DIV>
+        <span>div 的儿子</span>
+        <p>
+        <span>div 的孙子</span>
+    </p>
+    </DIV>
+    <p class="box"> pbox</p>
+    <p > p没有box</p>
+</body>
+</html>
