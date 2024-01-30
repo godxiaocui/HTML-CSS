@@ -1,0 +1,208 @@
+/*基础设置*/
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+
+/* #region顶部导航条开始*/
+.topbar .welcome{
+    height: 30px;
+    line-height: 30px;
+    font-size: 0px;
+    color: #666666;
+}
+.topbar .welcome span, .topbar .welcome a{
+    font-size: 12px;
+}
+.topbar .welcome .hello{
+    margin-right: 28px;
+}
+.topbar .login{
+    padding-right: 12px;
+    border-right: 1px solid #666666;
+}
+.topbar .register{
+    padding-left: 12px;
+}
+.topbar .nav{
+    height: 30px;
+    line-height: 30px;
+}
+.topbar .nav .list li{
+    float: left;
+}
+.topbar .nav .list li a {
+    padding: 0 15px ;
+    border-right:  1px solid #666666;
+}
+.topbar .nav .list li:first-child a{
+    padding-left : 0 ;
+}
+.topbar .nav .list li:last-child a{
+    padding-right : 0 ;
+    border: 0
+}
+/* #endregion 顶部导航条结束*/
+/* #region 头部搜索区开始*/
+.header{
+    height: 120px;
+
+}
+.header .search form{
+    margin-top: 40px;
+    font-size: 0px;
+}
+.header .search input{
+    width: 508px;
+    height: 34px;
+    border: 1px solid #dd302d;
+}
+/*  background-repeat背景太小不重复  background-image 引入背景图  vertical-align 对齐方式 */ 
+.header .search button{
+    width: 80px;
+    height: 36px;
+    background-color:  #dd302d;
+    vertical-align: top;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+/* #endregion 头部搜索区*/
+/* #region 主导航区开始*/
+.main-nav{
+    height: 48px;
+    border-bottom: 1px solid #DD302D;
+}
+/* # text-align 文字水平居中   
+垂直居中
+宽度等于行高
+height: 100%; 
+line-height: 48px; */
+.main-nav .all-types{
+    width: 192px;
+    height: 100%;
+    line-height: 48px;
+    background-color: #DD302D;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.main-nav .main-nav-list{
+    height: 48px;
+    line-height: 48px;
+}
+.main-nav .main-nav-list li {
+    float: left;
+    margin: 0 10px;
+    font-size: 14px;
+}
+/* #endregion 主导航区结束*/
+/* #region 主要内容开始*/
+.main-container {
+    margin-top: 10PX;
+}
+.main-container .slide-nav{
+    width: 190px;
+    height: 458px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.main-container .slide-nav li {
+    font-size: 10px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+/* 鼠标悬浮颜色*/
+.main-container .slide-nav li:hover{
+    background-color: #DD302D;
+}
+.main-container .slide-nav li:hover .second-menu{
+   display: block;
+}
+.main-container .slide-nav li:hover>a{
+    color: white;
+}
+.main-container .second-menu{
+    width: 680px;
+    height: 458px;
+    background-color:  white;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    padding-left: 20px;
+    display: none
+}
+.slide-nav .second-menu dl{
+    height: 36px;
+    line-height: 36px;
+   
+}
+.slide-nav .second-menu dl:first-child {
+  margin-top: 10px;
+}
+.slide-nav .second-menu dt{
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.slide-nav .second-menu dd{
+    float: left;
+}
+.slide-nav .second-menu dd a{
+    padding: 0 10px;
+    border-left: 1px solid #666666;
+}
+
+
+.main-container .banner{
+    width: 690px;
+    height: 458px;
+    background-color: white;
+    margin: 0 10PX;
+}
+
+.main-container .slide-other{
+    width: 290px;
+    height: 458px;
+}
+.slide-other .message{
+    width: 260px;
+    height: 156px;
+    border: 1px solid #d9d9d9;
+    padding: 0 14px;
+}
+.slide-other .message .title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.slide-other .message .title span {
+   font-size: 14px;
+    font-weight: bold;
+}
+.slide-other .message li {
+    height: 26px;
+     line-height: 26px;
+ }
+
+
+
+
+.slide-other .other-nav{
+    margin-top: 10px;
+    width: 290px;
+    height: 290px;
+    background-color: gray;
+}
+.other-nav-list li{
+    width: 48px;
+    height: 70px;
+    background-color: skyblue;
+    float: left;
+    margin: 0 11px ;
+} 
+/* #endregion 主要内容结束*/
